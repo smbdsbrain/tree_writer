@@ -106,7 +106,7 @@ void chose(vertex* vs)
 		}
 		else if(t == 2) {
 			result += cur.text + " ";
-			cur = vs[index_from_id(vs, cur.next1)];
+			cur = vs[index_from_id(vs, cur.next2)];
 
 		}
 		else
